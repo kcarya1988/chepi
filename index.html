@@ -1,0 +1,144 @@
+<!doctype HTML>
+<html>
+<head>
+    <title>Kool Designer!</title>
+    <link href="css/default.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   
+</head>
+<body>
+<div class="wrapper">
+<header>
+    <section>
+        <img src="images/logo.png" alt="Kool designer!" title="Kool designer!"/> 
+       
+        <nav>
+                <div class="hello">  <img src="images/hello.png"/> m kool designer!</div>
+              <a href="#" class="page">KOOL PAGE</a>
+              <a href="#" class="port">KOOL PORT</a>
+              <a href="#koolskills" class="skills">KOOL SKILLS</a>
+              <a href="#kooltouch" class="touch" >KOOL TOUCH</a>
+              <div id="kooltouch" class="overlay">
+                    <div class="kooltouchpopup">
+                        <h2>KOOL TOUCH!</h2>                        
+                            aries4m@gmail.com
+                            <a class="close" href="#">Close</a>
+                    </div>
+                </div>
+                <div id="koolskills" class="overlay">
+                       
+                    <div class="koolskillspopup">                                            
+                            <h2>KOOL SKILLS!</h2>   
+                         <div class="skillsmain">
+                                <h1>XD</h1>
+                                <div class="skillswrap">
+                            <span class="ux yellow" style="width:90%;"></span>
+                            </div>
+                         </div>
+                         <div class="skillsmain">
+                                <h1>Photoshop/Illustrator</h1>
+                                <div class="skillswrap">
+                            <span class="ux purple" style="width:90%;"></span>
+                            </div>
+                         </div>
+                         <div class="skillsmain">
+                                <h1>HTML/HTML5</h1>
+                                <div class="skillswrap">
+                            <span class="ux green" style="width:80%;"></span>
+                            </div>
+                         </div>
+                         <div class="skillsmain">
+                                <h1>CSS3/SCSS/FLEXBOX/BOOTSTRAP</h1>
+                                <div class="skillswrap">
+                            <span class="ux pink" style="width:80%;"></span>
+                            </div>
+                         </div>
+                         <div class="skillsmain">
+                                <h1>CSS3/SCSS/FLEXBOX/BOOTSTRAP</h1>
+                                <div class="skillswrap">
+                            <span class="ux blue" style="width:60%;"></span>
+                            </div>
+                         </div>
+                         <div class="skillsmain">
+                                <h1>Prototyping</h1>
+                                <div class="skillswrap">
+                            <span class="ux red" style="width:80%;"></span>
+                            </div>
+                         </div>
+                         <div class="skillsmain">
+                                <h1>JSON</h1>
+                                <div class="skillswrap">
+                                <span class="ux other" style="width:20%;"></span>
+                                </div>
+                             </div>
+                         <div class="skillsmain">
+                             <h1>Angular/Nativescript</h1>
+                             <div class="skillswrap">
+                                
+                                <span class="ux other" style="width:30%;"></span>
+                            </div>
+                             </div>
+                         <a class="close" href="#">Close</a>
+                    </div>
+                </div>
+        </nav>
+        
+    </section>
+</header>
+
+<section class="content">
+    <div class="kool-port">
+        <h1><span>KOOL </span>PORT</h1>
+    </div>
+    <figure> 
+            <img class="mySlides" src="images/slider1.png" style="width:100%">
+            <img class="mySlides" src="images/slider2.png" style="width:100%">
+            <img class="mySlides" src="images/slider3.png" style="width:100%">
+    </figure>
+<aside>
+   <h1><span>EXPERTISE</span> IN</h1>
+   <div class="list">
+    <p>RWD Design</p>
+    <p>CMS Website Design</p>
+    <p>Banner/Letterhead Design</p>
+    <p>Website Design</p>
+    <p>HTML5</p>
+    <p>Business Card Design</p>
+    <p>IOS/ANDROID App Design</p>
+    <p>CSS3</p>
+    <p>Customization Website</p>
+    <p>LOGO/BROCHURE Design</p>
+    <p>PSD To HTML</p>
+    <p>Prototyping</p>
+   </div>
+</aside>
+
+</section>
+   <footer>
+       Skype: kooldesigner
+   </footer>
+   
+</div>
+<script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 3000); // Change image every 2 seconds
+        }
+        </script>
+</body>
+
+
+</html>
